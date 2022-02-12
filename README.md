@@ -29,3 +29,5 @@ I'm currently study as a third year **Informatics Engineering** student in **Sep
 -   <a href="https://linkedin.com/in/faridlamaul/">LinkedIn</a>
 -   <a href="https://twitter.com/faridlamaul">Twitter</a>
 -   <a href="https://instagram.com/faridlamaul">Instagram</a>
+
+<!-- test -->
