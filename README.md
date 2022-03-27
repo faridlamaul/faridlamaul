@@ -17,8 +17,8 @@ I am a third-year **Informatics Engineering** student at the **Sepuluh Nopember 
 <a href="https://laravel.com/">
   <img align="left" alt="Laravel" title="Laravel" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/115px-Laravel.svg.png?20190820171151" />
 </a>
-<a href="https://www.mysql.com/">
-  <img align="left" alt="My SQL" title="My SQL" width="42px" src="https://iconape.com/wp-content/files/ec/369246/svg/369246.svg" />
+<a href="https://ubuntu.com/">
+  <img align="left" alt="Ubuntu" title="Ubuntu" width="42px" src="https://iconape.com/wp-content/files/ec/369246/svg/369246.svg" />
 </a>
 <a href="https://www.mysql.com/">
   <img align="left" alt="My SQL" title="My SQL" width="78px" src="https://www.logo.wine/a/logo/MySQL/MySQL-Logo.wine.svg" />
