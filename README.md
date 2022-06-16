@@ -1,6 +1,6 @@
 ### Hello Everyone! 👋 I'm Farid
 
-I am a third-year **Informatics Engineering** student at the **Sepuluh Nopember Institute of Technology**. Well-versed in building and deploying web applications projects using a PHP framework such as **Laravel** and database management using a **MySQL database**. I am also familiar with the **Google Cloud Platform** and its services. I like to learn new technologies and implement them in my projects. I am interested in **Back-End Development** and **Cloud Computing Architecture** and looking forward to learning more about it.
+I am a third-year **Informatics Engineering** student at the **Sepuluh Nopember Institute of Technology**. Well-versed in building and deploying web applications projects using a **Laravel** framework. I am also familiar with the **Google Cloud Platform** and its services. I like to learn new technologies and implement them in my projects. I am interested in **Back-End Development** and **Cloud Computing Architecture** and looking forward to learning more about it.
 
 -   🔭 I’m currently studying on <a href="https://www.its.ac.id/id/beranda/">Informatics Engineering Sepuluh Nopember Institute of Technology</a>
 -   🌱 I’m currently learning about cloud technology for back-end apps, especially **Google Cloud Platform**
