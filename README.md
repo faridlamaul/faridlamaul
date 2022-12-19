@@ -42,6 +42,13 @@ I am a fourth-year **Informatics Engineering student at the Sepuluh Nopember Ins
 
 ### Github Statistic
 
+<p align="center">
+    <a href="https://github.com/faridlamaul">
+        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Farid Lamaul's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=faridlamaul&theme=vision-friendly-dark&hide_border=true&stroke=0000&background=0e0e0e"/>
+    </a>
+<br/>
+<br/>
+  
 <p align="left">
 <a href="https://github.com/faridlamaul">
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=faridlamaul&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
