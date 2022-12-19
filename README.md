@@ -12,7 +12,7 @@ Technology**. Well-versed in building and deploying web applications projects us
 I am a fourth-year **Informatics Engineering student at the Sepuluh Nopember Institute of Technology**. Well-versed in Software Development Life Cycle (SDLC) and Cloud Infrastructure provisioning using **Terraform**. I am also familiar with CI/CD pipelines and software development process automation. I like to learn new technologies for automation tools. Currently, I am learning Python, especially for scripting and automation.
 
 -   🔭 I’m currently studying on <a href="https://www.its.ac.id/id/beranda/">Informatics Engineering Sepuluh Nopember Institute of Technology</a>
--   🌱 I’m interested in cloud technology for back-end apps, especially **Amazon Web Services (AWS) & Google Cloud Platform (GCP)**
+-   🌱 I’m interested in cloud technology for back-end apps, especially <a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a> & <a href="https://cloud.google.com/">Google Cloud Platform (GCP)</a>
 -   📫 How to reach me : lamaulfarid71@gmail.com
 
 ### Tech Stack
