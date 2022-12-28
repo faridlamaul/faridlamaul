@@ -1,4 +1,4 @@
-### Hello Everyone! 👋 I'm Farid
+### Hello Everyone! 👋 I'm Farid 
 
 <!---
 I am a last-year **Informatics Engineering** student at the **Sepuluh Nopember Institute of 
