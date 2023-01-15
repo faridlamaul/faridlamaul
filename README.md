@@ -1,15 +1,6 @@
-### Hello Everyone! 👋 I'm Farid 
+### Hello Everyone! 👋 I'm Farid
 
-<!---
-I am a last-year **Informatics Engineering** student at the **Sepuluh Nopember Institute of 
-Technology**. Well-versed in building and deploying web applications projects using a **Laravel** framework. I am also familiar with the **Google Cloud Platform** and its services. I like to learn new technologies and implement them in my projects. I am interested in **Back-End Development** and **Cloud Computing Architecture** and looking forward to learning more about it.
-
--   🔭 I’m currently studying on <a href="https://www.its.ac.id/id/beranda/">Informatics Engineering Sepuluh Nopember Institute of Technology</a>
--   🌱 I’m currently learning about cloud technology for back-end apps, especially **Google Cloud Platform**
--   📫 How to reach me : lamaulfarid71@gmail.com
---->
-
-I am a fourth-year **Informatics Engineering student at the Sepuluh Nopember Institute of Technology**. Well-versed in Software Development Life Cycle (SDLC) and Cloud Infrastructure provisioning using **Terraform**. I am also familiar with CI/CD pipelines and software development process automation. I like to learn new technologies for automation tools. Currently, I am learning Python, especially for scripting and automation.
+I am a fourth-year **Informatics Engineering student at the Sepuluh Nopember Institute of Technology**. I have experience in designing, implementing, and maintaining efficient and scalable infrastructure for both on-premises and cloud-based environments. Well-versed in a variety of tools and technologies, including but not limited to **AWS**, **Google Cloud**, **Docker**, **Terraform**, and **Jenkins**. My expertise in automation and configuration management allows me to quickly and effectively deploy and manage systems and applications, reducing downtime and increasing efficiency. My strong communication and collaboration skills enable me to work effectively with cross-functional teams, and I am always looking for new ways to improve processes and drive innovation in the field of **DevOps**.
 
 -   🔭 I’m currently studying on <a href="https://www.its.ac.id/id/beranda/">Informatics Engineering Sepuluh Nopember Institute of Technology</a>
 -   🌱 I’m interested in cloud technology for back-end apps, especially <a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a> & <a href="https://cloud.google.com/">Google Cloud Platform (GCP)</a>
