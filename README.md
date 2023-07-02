@@ -50,7 +50,7 @@ I am a fourth-year **Informatics Engineering student at the Sepuluh Nopember Ins
 ### Reach me on
 
 <a href="https://twitter.com/faridlamaul/">
-  <img align="left" alt="Twitter" title="Twitter" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" />
+  <img align="left" alt="Twitter" title="Twitter" width="30px" src="https://freelogopng.com/images/all_img/1657045399twitter-icon-png.png" />
 </a>
 <a href="https://linkedin.com/in/faridlamaul/">
   <img align="left" alt="LinkedIn" title="LinkedIn" width="30px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />
