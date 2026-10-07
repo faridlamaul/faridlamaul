@@ -1,132 +1,104 @@
-<div align="center">
-
-# Ahmad Lamaul Farid
-### Senior DevOps Engineer • Site Reliability Engineer (SRE) • AIOps & FinOps
-
-<p align="center">
-  <a href="https://linkedin.com/in/faridlamaul/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://medium.com/@faridlamaul_"><img src="https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://twitter.com/faridlamaul/"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter/X" /></a>
-  <a href="mailto:lamaulfarid71@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://roadmap.sh"><img src="https://img.shields.io/badge/roadmap.sh-Verified-000000?style=flat-square&logo=roadmapdotsh&logoColor=white" alt="roadmap.sh" /></a>
-</p>
-
-<sub>Architecting resilient distributed systems, GitOps delivery engines, and AI-augmented operations.</sub>
-
----
-
-</div>
-
-## 📌 Executive Summary
-
-Platform Engineer and Site Reliability Engineer passionate about bridging infrastructure automation, continuous delivery, high-availability reliability, and intelligent operations (AIOps/FinOps). Experienced in designing multi-tenant Kubernetes platforms, Infrastructure as Code, declarative GitOps workflows, and telemetry pipelines across AWS and GCP. 
-
-Actively engineering high-performance CLI tools in **Go** to bring observability, token economics, and automated semantic versioning to cloud-native ecosystems.
-
-- ☸️ **Cloud & Platform Engineering:** Production-grade Kubernetes orchestration, multi-cloud infrastructure (AWS, GCP), and modular Infrastructure as Code with Terraform and Helmfile.
-- ⚡ **Site Reliability & Observability (SRE):** SLI/SLO definition, proactive telemetry, distributed tracing, automated log triage, and incident remediation using Prometheus, Grafana, and OpenTelemetry.
-- 🤖 **AIOps, FinOps & LLMOps:** Building tooling for AI token cost governance, prompt-cache ROI analysis, and agentic operational workflows.
-- 🔁 **GitOps & Continuous Delivery:** Secure, immutable CI/CD pipelines leveraging GitHub Actions, OCI registries, automated SemVer bumping, and container security scanning.
-
----
-
-## 🚀 Featured Engineering & Open Source
-
-| Project | Description | Tech Stack | Status |
-| :--- | :--- | :--- | :--- |
-| [**omp-cost**](https://github.com/faridlamaul/omp-cost) | Modern terminal utility & FinOps tool for inspecting AI token consumption, prompt caching efficiency, and cost forecasts. | `Go` `SQLite` `Lipgloss` `Cobra` | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/faridlamaul/omp-cost) |
-| [**go-gitops**](https://github.com/faridlamaul/go-gitops) | High-performance GitOps & SemVer automation CLI for Conventional Commits, changelog generation, and automated GitHub Releases. | `Go` `GitHub REST API` `GitOps` | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/faridlamaul/go-gitops) |
-| [**ci-template**](https://github.com/faridlamaul/ci-template) | Reusable, production-grade GitHub Actions workflows for Helm charts: linting, OCI packaging, GHCR publishing, and chart release. | `GitHub Actions` `Helm` `OCI` `GHCR` | ![CI](https://img.shields.io/badge/CI%2FCD-Reusable_Workflows-2088FF?style=flat-square) |
-| [**application-chart**](https://github.com/faridlamaul/application-chart) | Enterprise-ready Helm chart boilerplate for deploying scalable, resilient microservice workloads with HPA, Ingress, and health probes. | `Kubernetes` `Helm` `Cloud Native` | ![K8s](https://img.shields.io/badge/Kubernetes-Helm_Chart-326CE5?style=flat-square) |
-
----
-
-## 🛠️ Technical Arsenal
-
-### ☁️ Cloud & Container Platforms
-<p align="left">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-</p>
-
-### ⚙️ Infrastructure as Code & Orchestration
-<p align="left">
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm" />
-  <img src="https://img.shields.io/badge/Helmfile-0052CC?style=flat-square&logo=kubernetes&logoColor=white" alt="Helmfile" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white" alt="Ansible" />
-</p>
-
-### 📈 Site Reliability & Observability (SRE)
-<p align="left">
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
-  <img src="https://img.shields.io/badge/Grafana_Loki-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Loki" />
-  <img src="https://img.shields.io/badge/SLO%20%2F%20SLI%20Alerting-00C7B7?style=flat-square&logo=statuspal&logoColor=white" alt="SLO/SLI" />
-</p>
-
-### 🔄 CI/CD & GitOps Delivery
-<p align="left">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/GitOps-000000?style=flat-square&logo=git&logoColor=white" alt="GitOps" />
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/OCI%20Artifacts-0052CC?style=flat-square&logo=docker&logoColor=white" alt="OCI" />
-</p>
-
-### 🤖 AIOps, FinOps & LLMOps
-<p align="left">
-  <img src="https://img.shields.io/badge/AIOps-Agentic_Workflows-7952DE?style=flat-square&logo=openai&logoColor=white" alt="AIOps" />
-  <img src="https://img.shields.io/badge/FinOps-Token_Cost_Governance-00C7B7?style=flat-square&logo=sparkles&logoColor=white" alt="FinOps" />
-  <img src="https://img.shields.io/badge/Prompt%20Caching%20Optimization-4B32C3?style=flat-square&logo=fastapi&logoColor=white" alt="Prompt Caching" />
-</p>
-
-### 💻 Languages & Systems
-<p align="left">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-</p>
-
----
-
-## 📊 Reliability & Engineering Analytics
-
-<div align="center">
-
-  <p align="center">
-    <a href="https://github.com/faridlamaul">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=faridlamaul&theme=tokyonight&hide_border=true" alt="Farid's Streak" />
-    </a>
-  </p>
-
-  <p align="center">
-    <a href="https://github.com/faridlamaul">
-      <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api?username=faridlamaul&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Farid's GitHub Stats" />
-      <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=faridlamaul&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Farid's Top Languages" />
-    </a>
-  </p>
-
-  <p align="center">
-    <a href="https://roadmap.sh">
-      <img src="https://roadmap.sh/card/wide/6730b78031d65c235dc782e7?variant=dark&roadmaps=kubernetes%2Cdevops%2Cterraform%2Caws" alt="roadmap.sh skill verification" />
-    </a>
-  </p>
-
-</div>
-
----
-
-## 💬 Let's Connect
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Ahmad Lamaul Farid — Senior DevOps Engineer, Platform Engineer, Site Reliability Engineer. Jakarta, Indonesia, open to remote." src="./assets/hero-dark.svg" width="100%">
+</picture>
 
 <p align="center">
-  Always open to discussions on <strong>cloud platform architecture</strong>, <strong>reliability engineering (SRE)</strong>, <strong>FinOps</strong>, and <strong>AI-assisted operations</strong>.<br/>
-  Feel free to reach out via <a href="mailto:lamaulfarid71@gmail.com"><strong>Email</strong></a> or connect on <a href="https://linkedin.com/in/faridlamaul/"><strong>LinkedIn</strong></a>.
+  <a href="https://www.linkedin.com/in/faridlamaul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-121713?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nI2M0ZjA3OCcgZD0nTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTN6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHonLz48L3N2Zz4%3D"></a>
+  <a href="mailto:lamaulfarid71@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-121713?style=for-the-badge&logo=gmail&logoColor=c4f078"></a>
+  <a href="https://x.com/faridlamaul"><img alt="X" src="https://img.shields.io/badge/X-121713?style=for-the-badge&logo=x&logoColor=c4f078"></a>
+  <a href="https://medium.com/@faridlamaul"><img alt="Medium" src="https://img.shields.io/badge/Medium-121713?style=for-the-badge&logo=medium&logoColor=c4f078"></a>
 </p>
+
+## About
+
+Senior DevOps Engineer with 4+ years across cloud infrastructure, Kubernetes, delivery automation, and observability. At **Geniebook** I operate six EKS and TKE clusters across production, staging, and development, and led a cloud consolidation of 30+ production services.
+
+I connect infrastructure decisions to operational outcomes — lower cloud spend, repeatable deployments, clearer incident signals — and I'm building **human-governed AI agents** for infrastructure and incident operations.
+
+| Cloud & platform engineering | Reliability & delivery | Human-governed AI operations |
+| :-- | :-- | :-- |
+| Reusable infrastructure, Kubernetes operations, and consistent environments across the delivery lifecycle. | Actionable telemetry, safer release workflows, and ownership from deployment to incident response. | Grounded investigation, policy-evaluated remediation, and explicit human approval for production changes. |
+| `Kubernetes` `Terraform` `Terragrunt` `Helm` | `SLI / SLO` `GitOps` `Grafana` `OpenTelemetry` | `LangGraph` `Temporal` `MCP` `OPA` |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/impact-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/impact-light.svg">
+  <img alt="Résumé-reported outcomes from Geniebook: about 50% lower monthly cloud spend, 30+ production services migrated, 35% lower mean time to resolve. Not live telemetry." src="./assets/impact-dark.svg" width="100%">
+</picture>
+
+## Open source
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/faridlamaul/omp-cost">omp-cost</a></h3>
+      <p>Terminal FinOps utility for AI token usage, prompt-cache efficiency, cost attribution, and forecasts across Oh My Pi profiles — with TUI, JSON, CSV, and Markdown output.</p>
+      <p><code>Go</code> <code>SQLite</code> <code>Cobra</code> <code>Lipgloss</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/faridlamaul/go-gitops">go-gitops</a></h3>
+      <p>GitHub-focused CLI that turns Conventional Commits into semantic versions, structured release notes, and GitHub Releases, with a dry-run mode for review.</p>
+      <p><code>Go</code> <code>GitHub API</code> <code>GitOps</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/faridlamaul/ci-template">ci-template</a></h3>
+      <p>Reusable <code>workflow_call</code> GitHub Actions for semantic releases, Go / Node.js / Python CI, Go release packaging, and multi-platform Docker builds to GHCR.</p>
+      <p><code>GitHub Actions</code> <code>CI/CD</code> <code>DevSecOps</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/faridlamaul/application-chart">application-chart</a></h3>
+      <p>Values-driven Helm chart for APIs, workers, StatefulSets, Jobs, and CronJobs — with HPA, PDB, NetworkPolicy, ServiceMonitor, ExternalSecrets, and schema-validated values.</p>
+      <p><code>Kubernetes</code> <code>Helm</code> <code>GitOps</code></p>
+    </td>
+  </tr>
+</table>
+
+## Building now
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/flow-light.svg">
+  <img alt="Planned agentic SRE workflow, in development: Observe with read-scoped MCP, Investigate with LangGraph and RAG, Evaluate with OPA policy checks, Approve by human confirmation, Act through Temporal workflows. Not a deployed production system." src="./assets/flow-dark.svg" width="100%">
+</picture>
+
+An **agentic SRE platform**: agents gather metrics, logs, recent changes, and runbooks, then prepare policy-evaluated actions. People keep authority over every production change.
+
+## Toolbox
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Caws%2Cgcp%2Cazure%2Clinux%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpython%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Cgit&perline=10&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Caws%2Cgcp%2Cazure%2Clinux%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpython%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Cgit&perline=10&theme=light">
+  <img alt="Kubernetes, Docker, AWS, Google Cloud, Azure, Linux, Terraform, Ansible, GitHub Actions, GitLab, Jenkins, Prometheus, Grafana, Go, Python, Bash, PostgreSQL, MySQL, Kafka, Git" src="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Caws%2Cgcp%2Cazure%2Clinux%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpython%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Cgit&perline=10&theme=dark">
+</picture>
+
+| Area | Tools |
+| :-- | :-- |
+| **Platforms** | AWS · GCP · Azure · Tencent Cloud · Kubernetes · Docker · Helm |
+| **Delivery** | Terraform · Terragrunt · Helmfile · Ansible · GitLab CI/CD · GitHub Actions · Argo CD · Jenkins |
+| **Reliability** | Prometheus · Grafana · Victoria Metrics · Datadog · Loki · OpenSearch · OpenTelemetry |
+| **AI operations** | LangGraph · MCP · RAG · Temporal · OPA · Langfuse |
+| **Security** | IAM · RBAC · Trivy · Gitleaks · SonarQube · DefectDojo |
+| **Data & backend** | Go · Python · Bash · PostgreSQL · MySQL · Kafka · Debezium · Airflow |
+
+## GitHub activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=faridlamaul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=16&bg_color=0b0e0c&title_color=c4f078&icon_color=c4f078&text_color=a4afa6&ring_color=c4f078">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-eight-theta.vercel.app/api?username=faridlamaul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=16&bg_color=f5f5ef&title_color=416218&icon_color=416218&text_color=52604f&ring_color=416218">
+    <img height="170" alt="GitHub stats for faridlamaul" src="https://github-readme-stats-eight-theta.vercel.app/api?username=faridlamaul&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=16&bg_color=0b0e0c&title_color=c4f078&icon_color=c4f078&text_color=a4afa6&ring_color=c4f078">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=faridlamaul&hide_border=true&border_radius=16&background=0b0e0c&ring=c4f078&fire=c4f078&currStreakNum=f2f4ed&sideNums=f2f4ed&currStreakLabel=c4f078&sideLabels=a4afa6&dates=929e95&stroke=263028">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=faridlamaul&hide_border=true&border_radius=16&background=f5f5ef&ring=416218&fire=416218&currStreakNum=1b241b&sideNums=1b241b&currStreakLabel=416218&sideLabels=52604f&dates=586853&stroke=d2d9cb">
+    <img height="170" alt="GitHub contribution streak for faridlamaul" src="https://github-readme-streak-stats.herokuapp.com/?user=faridlamaul&hide_border=true&border_radius=16&background=0b0e0c&ring=c4f078&fire=c4f078&currStreakNum=f2f4ed&sideNums=f2f4ed&currStreakLabel=c4f078&sideLabels=a4afa6&dates=929e95&stroke=263028">
+  </picture>
+</p>
+
+## Let's connect
+
+Open to conversations about **cloud platform architecture**, **site reliability engineering**, **FinOps**, and **human-governed AI operations**. Reach me by [email](mailto:lamaulfarid71@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/faridlamaul/).
