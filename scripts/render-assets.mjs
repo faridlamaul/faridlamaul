@@ -34,21 +34,25 @@ const themes = {
 };
 
 const content = {
-  location: 'Jakarta, Indonesia · Open to remote',
-  eyebrow: 'PLATFORM ENGINEERING / RELIABILITY / AGENTIC AI',
+  location: 'Jakarta / Surabaya, Indonesia · Open to remote',
+  eyebrow: 'DEVOPS / SITE RELIABILITY / PLATFORM',
   greeting: 'Hi, I’m',
   firstName: 'Ahmad',
   lastName: 'Lamaul Farid',
-  roles: ['Senior DevOps Engineer', 'Platform Engineer', 'Site Reliability Engineer', 'AIOps & FinOps builder'],
-  nodes: [['Cloud', 'Multi-cloud / K8s'], ['Delivery', 'IaC / GitOps'], ['Telemetry', 'SLI / SLO'], ['AI agents', 'MCP / OPA']],
+  roles: ['DevOps Engineer', 'Site Reliability Engineer', 'Platform Engineer'],
+  nodes: [['Cloud', 'Multi-cloud / K8s'], ['Delivery', 'IaC / GitOps'], ['Telemetry', 'SLI / SLO'], ['Cost', 'FinOps / Rightsizing']],
   outcomes: [
     ['~50%', 'Lower monthly cloud spend', 'Cloud consolidation, rightsizing, and resource governance.'],
     ['30+', 'Production services migrated', 'A phased multi-cloud cutover with no customer-facing downtime.'],
     ['35%', 'Lower mean time to resolve', 'Actionable SLI and alerting standards with less alert noise.'],
   ],
   outcomesNote: 'RÉSUMÉ-REPORTED OUTCOMES FROM GENIEBOOK · NOT LIVE TELEMETRY',
-  steps: [['Observe', 'Read-scoped MCP'], ['Investigate', 'LangGraph + RAG'], ['Evaluate', 'OPA policy checks'], ['Approve', 'Human confirmation'], ['Act', 'Temporal workflows']],
-  flowNote: 'AN INTENDED OPERATING MODEL, NOT A DEPLOYED PRODUCTION SYSTEM · HUMANS APPROVE PRODUCTION CHANGES',
+  // The release pipeline that ships faridlamaul.dev; the last step is the gate (`gate`).
+  steps: [['Commit', 'Conventional Commits'], ['Verify', 'Check · links · CSP'], ['Release', 'go-gitops SemVer tag'], ['Deploy', 'Cloudflare Workers'], ['Probe', 'Hourly SLO checks']],
+  gate: 'Probe',
+  flowLabel: 'Live',
+  flowHeading: 'FARIDLAMAUL.DEV / GITHUB ACTIONS → CLOUDFLARE',
+  flowNote: 'RUNNING IN PRODUCTION · A RELEASE FAILS IF THE POST-DEPLOY PROBE FAILS · SLOs AT FARIDLAMAUL.DEV/RELIABILITY',
 };
 
 const esc = (value) => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -217,7 +221,7 @@ function flow(t, mode) {
   const f = frame(t, W, H, id);
   const gap = 24, boxW = (W - 96 - gap * (content.steps.length - 1)) / content.steps.length, top = 96, boxH = 124;
   const cycle = content.steps.length * 1.5;
-  const human = content.steps.findIndex(([title]) => title === 'Approve');
+  const human = content.steps.findIndex(([title]) => title === content.gate);
   const boxes = content.steps.map(([title, detail], index) => {
     const x = 48 + index * (boxW + gap);
     const isHuman = index === human;
@@ -225,7 +229,7 @@ function flow(t, mode) {
       ? `<path class="link" style="animation-delay:${index * 1.5 + 0.6}s" d="M${x + boxW + 5} ${top + boxH / 2}h${gap - 10}m-5 -4l5 4l-5 4" fill="none" stroke="${t.lineStrong}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>`
       : '';
     return `<g class="rise" style="animation-delay:${0.08 * index}s"><rect class="${isHuman ? 'human' : 'step'}" style="animation-delay:${index * 1.5}s" x="${x}" y="${top}" width="${boxW}" height="${boxH}" rx="14" fill="${t.surface}" stroke="${isHuman ? t.accent : t.line}" stroke-width="${isHuman ? 1.5 : 1}"/>
-<text x="${x + 20}" y="${top + 32}" class="mono" font-size="12" fill="${t.subtle}">${String(index + 1).padStart(2, '0')}</text>${isHuman ? `<text x="${x + boxW - 20}" y="${top + 32}" text-anchor="end" class="mono" font-size="10" letter-spacing="1" fill="${t.accent}">HUMAN GATE</text>` : ''}
+<text x="${x + 20}" y="${top + 32}" class="mono" font-size="12" fill="${t.subtle}">${String(index + 1).padStart(2, '0')}</text>${isHuman ? `<text x="${x + boxW - 20}" y="${top + 32}" text-anchor="end" class="mono" font-size="10" letter-spacing="1" fill="${t.accent}">SLO GATE</text>` : ''}
 <text x="${x + 20}" y="${top + 78}" class="sans" font-size="21" font-weight="600" fill="${isHuman ? t.accent : t.text}">${esc(title)}</text>
 <text x="${x + 20}" y="${top + 102}" class="mono" font-size="12" fill="${t.muted}">${esc(detail)}</text></g>${connector}`;
   }).join('\n');
@@ -237,16 +241,16 @@ function flow(t, mode) {
 @keyframes human{0%,26%,100%{stroke-width:1.5}9%{stroke-width:3}}
 .ping{transform-box:fill-box;transform-origin:center;animation:ping 2.6s ease-out infinite}
 @keyframes ping{from{opacity:.9;transform:scale(1)}to{opacity:0;transform:scale(3.2)}}`;
-  const label = 'In development';
+  const label = content.flowLabel;
   const pillWidth = Math.round(label.length * MONO_ADVANCE * 12 + 48);
   const body = `${f.back}
 <g transform="translate(48 34)"><rect width="${pillWidth}" height="32" rx="16" fill="none" stroke="${t.accent}"/><circle class="ping" cx="19" cy="16" r="3.5" fill="none" stroke="${t.accent}"/><circle cx="19" cy="16" r="3.5" fill="${t.accent}"/><text x="32" y="20.5" class="mono" font-size="12" fill="${t.accent}">${label}</text></g>
-<text x="${W - 48}" y="55" text-anchor="end" class="mono" font-size="11" letter-spacing="1" fill="${t.subtle}">AGENTIC SRE / LANGGRAPH + TEMPORAL</text>
+<text x="${W - 48}" y="55" text-anchor="end" class="mono" font-size="11" letter-spacing="1" fill="${t.subtle}">${esc(content.flowHeading)}</text>
 ${boxes}
 <text x="48" y="262" class="mono" font-size="10.5" letter-spacing="1" fill="${t.subtle}">${esc(content.flowNote)}</text>
 ${f.border}`;
-  const desc = `Planned agentic SRE workflow: ${content.steps.map(([title, detail]) => `${title} (${detail})`).join(', then ')}. In development; not a deployed production system. ${mode} theme.`;
-  return svg({ width: W, height: H, title: 'Agentic SRE workflow', desc, fonts: ['sans', 'mono'], css, defs: f.defs, body });
+  const desc = `Release pipeline for faridlamaul.dev, running in production: ${content.steps.map(([title, detail]) => `${title} (${detail})`).join(', then ')}. A release fails if the post-deploy probe fails. ${mode} theme.`;
+  return svg({ width: W, height: H, title: 'Release pipeline', desc, fonts: ['sans', 'mono'], css, defs: f.defs, body });
 }
 
 mkdirSync(join(root, 'assets'), { recursive: true });

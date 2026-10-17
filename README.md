@@ -1,10 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Ahmad Lamaul Farid — Senior DevOps Engineer, Platform Engineer, Site Reliability Engineer. Jakarta, Indonesia, open to remote." src="./assets/hero-dark.svg" width="100%">
+  <img alt="Ahmad Lamaul Farid — DevOps Engineer, Site Reliability Engineer, Platform Engineer. Jakarta / Surabaya, Indonesia, open to remote." src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 <p align="center">
+  <a href="https://faridlamaul.dev"><img alt="Website" src="https://img.shields.io/badge/faridlamaul.dev-121713?style=for-the-badge&logo=cloudflare&logoColor=c4f078"></a>
   <a href="https://www.linkedin.com/in/faridlamaul/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-121713?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc%2BPHBhdGggZmlsbD0nI2M0ZjA3OCcgZD0nTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEzIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTN6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHonLz48L3N2Zz4%3D"></a>
   <a href="mailto:lamaulfarid71@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-121713?style=for-the-badge&logo=gmail&logoColor=c4f078"></a>
   <a href="https://x.com/faridlamaul"><img alt="X" src="https://img.shields.io/badge/X-121713?style=for-the-badge&logo=x&logoColor=c4f078"></a>
@@ -13,14 +14,14 @@
 
 ## About
 
-Senior DevOps Engineer with 4+ years across cloud infrastructure, Kubernetes, delivery automation, and observability. At **Geniebook** I operate six EKS and TKE clusters across production, staging, and development, and led a cloud consolidation of 30+ production services.
+DevOps Engineer with 4+ years carrying the SRE and platform engineering work myself: cloud infrastructure, Kubernetes, delivery automation, observability, and incident response. At **Geniebook** I own production operations across six EKS and TKE clusters and led the multi-cloud consolidation of 30+ production services.
 
-I connect infrastructure decisions to operational outcomes — lower cloud spend, repeatable deployments, clearer incident signals — and I'm building **human-governed AI agents** for infrastructure and incident operations.
+I connect infrastructure decisions to measurable outcomes: lower cloud spend, repeatable zero-downtime deployments, and high-signal incident response. My portfolio runs the same way, with [published SLOs and an error budget](https://faridlamaul.dev/reliability/).
 
-| Cloud & platform engineering | Reliability & delivery | Human-governed AI operations |
-| :-- | :-- | :-- |
-| Reusable infrastructure, Kubernetes operations, and consistent environments across the delivery lifecycle. | Actionable telemetry, safer release workflows, and ownership from deployment to incident response. | Grounded investigation, policy-evaluated remediation, and explicit human approval for production changes. |
-| `Kubernetes` `Terraform` `Terragrunt` `Helm` | `SLI / SLO` `GitOps` `Grafana` `OpenTelemetry` | `LangGraph` `Temporal` `MCP` `OPA` |
+| DevOps & delivery                                                                                       | Site reliability                                                                                               | Platform engineering                                                                                       |
+| :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
+| Standardized CI/CD, GitOps promotion, and DevSecOps gates that make releases repeatable and uneventful. | SLI/SLO-driven alerting, telemetry pipelines that hold up under burst load, and cost-aware capacity decisions. | Reusable infrastructure modules, Kubernetes runtime contracts, and golden paths teams adopt incrementally. |
+| `GitLab CI/CD` `GitHub Actions` `Argo CD` `Trivy`                                                       | `SLI / SLO` `Victoria Metrics` `Grafana` `OpenSearch`                                                          | `Kubernetes` `Terraform` `Terragrunt` `Helm`                                                               |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/impact-dark.svg">
@@ -33,56 +34,58 @@ I connect infrastructure decisions to operational outcomes — lower cloud spend
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/faridlamaul/omp-cost">omp-cost</a></h3>
-      <p>Terminal FinOps utility for AI token usage, prompt-cache efficiency, cost attribution, and forecasts across Oh My Pi profiles — with TUI, JSON, CSV, and Markdown output.</p>
-      <p><code>Go</code> <code>SQLite</code> <code>Cobra</code> <code>Lipgloss</code></p>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/faridlamaul/go-gitops">go-gitops</a></h3>
       <p>GitHub-focused CLI that turns Conventional Commits into semantic versions, structured release notes, and GitHub Releases, with a dry-run mode for review.</p>
       <p><code>Go</code> <code>GitHub API</code> <code>GitOps</code></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/faridlamaul/ci-template">ci-template</a></h3>
       <p>Reusable <code>workflow_call</code> GitHub Actions for semantic releases, Go / Node.js / Python CI, Go release packaging, and multi-platform Docker builds to GHCR.</p>
       <p><code>GitHub Actions</code> <code>CI/CD</code> <code>DevSecOps</code></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/faridlamaul/application-chart">application-chart</a></h3>
       <p>Values-driven Helm chart for APIs, workers, StatefulSets, Jobs, and CronJobs — with HPA, PDB, NetworkPolicy, ServiceMonitor, ExternalSecrets, and schema-validated values.</p>
       <p><code>Kubernetes</code> <code>Helm</code> <code>GitOps</code></p>
     </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/faridlamaul/omp-cost">omp-cost</a></h3>
+      <p>Terminal FinOps utility for AI token usage, prompt-cache efficiency, cost attribution, and forecasts across Oh My Pi profiles — with TUI, JSON, CSV, and Markdown output.</p>
+      <p><code>Go</code> <code>SQLite</code> <code>Cobra</code> <code>Lipgloss</code></p>
+    </td>
   </tr>
 </table>
 
-## Building now
+## How I ship
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/flow-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/flow-light.svg">
-  <img alt="Planned agentic SRE workflow, in development: Observe with read-scoped MCP, Investigate with LangGraph and RAG, Evaluate with OPA policy checks, Approve by human confirmation, Act through Temporal workflows. Not a deployed production system." src="./assets/flow-dark.svg" width="100%">
+  <img alt="Release pipeline for faridlamaul.dev, running in production: Commit with Conventional Commits, Verify with type checks, link checks, and a CSP check, Release with a go-gitops SemVer tag, Deploy to Cloudflare Workers, then Probe with hourly SLO checks. A release fails if the post-deploy probe fails." src="./assets/flow-dark.svg" width="100%">
 </picture>
 
-An **agentic SRE platform**: agents gather metrics, logs, recent changes, and runbooks, then prepare policy-evaluated actions. People keep authority over every production change.
+My portfolio is operated like a production service, built on [go-gitops](https://github.com/faridlamaul/go-gitops) and [ci-template](https://github.com/faridlamaul/ci-template): every release is verified against production by a synthetic probe, and hourly probes feed the [SLOs and error budget](https://faridlamaul.dev/reliability/) the site publishes about itself.
 
 ## Toolbox
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Caws%2Cgcp%2Cazure%2Clinux%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpython%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Cgit&perline=10&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Caws%2Cgcp%2Cazure%2Clinux%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpython%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Cgit&perline=10&theme=light">
-  <img alt="Kubernetes, Docker, AWS, Google Cloud, Azure, Linux, Terraform, Ansible, GitHub Actions, GitLab, Jenkins, Prometheus, Grafana, Go, Python, Bash, PostgreSQL, MySQL, Kafka, Git" src="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Caws%2Cgcp%2Cazure%2Clinux%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpython%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Cgit&perline=10&theme=dark">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws%2Cgcp%2Cazure%2Clinux%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cbitbucket%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpy%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Ccloudflare%2Cgit&perline=11&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=aws%2Cgcp%2Cazure%2Clinux%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cbitbucket%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpy%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Ccloudflare%2Cgit&perline=11&theme=light">
+  <img alt="AWS, Google Cloud, Azure, Linux, Kubernetes, Docker, Terraform, Ansible, GitHub Actions, GitLab, Bitbucket, Jenkins, Prometheus, Grafana, Go, Python, Bash, PostgreSQL, MySQL, Kafka, Cloudflare, Git" src="https://skillicons.dev/icons?i=aws%2Cgcp%2Cazure%2Clinux%2Ckubernetes%2Cdocker%2Cterraform%2Cansible%2Cgithubactions%2Cgitlab%2Cbitbucket%2Cjenkins%2Cprometheus%2Cgrafana%2Cgo%2Cpy%2Cbash%2Cpostgres%2Cmysql%2Ckafka%2Ccloudflare%2Cgit&perline=11&theme=dark">
 </picture>
 
-| Area | Tools |
-| :-- | :-- |
-| **Platforms** | AWS · GCP · Azure · Tencent Cloud · Kubernetes · Docker · Helm |
-| **Delivery** | Terraform · Terragrunt · Helmfile · Ansible · GitLab CI/CD · GitHub Actions · Argo CD · Jenkins |
-| **Reliability** | Prometheus · Grafana · Victoria Metrics · Datadog · Loki · OpenSearch · OpenTelemetry |
-| **AI operations** | LangGraph · MCP · RAG · Temporal · OPA · Langfuse |
-| **Security** | IAM · RBAC · Trivy · Gitleaks · SonarQube · DefectDojo |
-| **Data & backend** | Go · Python · Bash · PostgreSQL · MySQL · Kafka · Debezium · Airflow |
+| Area                           | Tools                                                                                          |
+| :----------------------------- | :--------------------------------------------------------------------------------------------- |
+| **Cloud**                      | AWS · GCP · Azure · Tencent Cloud                                                              |
+| **Containers & orchestration** | Kubernetes · Docker · Helm · Helmfile · Kustomize                                              |
+| **Infrastructure as code**     | Terraform · Terragrunt · Ansible                                                               |
+| **CI/CD & GitOps**             | GitLab CI/CD · GitHub Actions · Bitbucket Pipelines · Jenkins · Argo CD · Flux CD              |
+| **Observability**              | Prometheus · Grafana · Victoria Metrics · Datadog · Loki · OpenSearch · OpenTelemetry · Jaeger |
+| **DevSecOps**                  | Trivy · Gitleaks · SonarQube · Burp Suite · Faraday                                            |
+| **Automation & languages**     | Go · Python · Bash · n8n                                                                       |
+| **Data platforms**             | PostgreSQL · MySQL · Kafka · Debezium · Airflow                                                |
 
 ## GitHub activity
 
@@ -101,4 +104,4 @@ An **agentic SRE platform**: agents gather metrics, logs, recent changes, and ru
 
 ## Let's connect
 
-Open to conversations about **cloud platform architecture**, **site reliability engineering**, **FinOps**, and **human-governed AI operations**. Reach me by [email](mailto:lamaulfarid71@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/faridlamaul/).
+Open to **DevOps**, **Site Reliability**, and **Platform Engineering** roles, and to conversations about multi-cloud Kubernetes and delivery automation. See [faridlamaul.dev](https://faridlamaul.dev), or reach me by [email](mailto:lamaulfarid71@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/faridlamaul/).
