@@ -34,9 +34,9 @@ I connect infrastructure decisions to measurable outcomes: lower cloud spend, re
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/faridlamaul/go-gitops">go-gitops</a></h3>
-      <p>GitHub-focused CLI that turns Conventional Commits into semantic versions, structured release notes, and GitHub Releases, with a dry-run mode for review.</p>
-      <p><code>Go</code> <code>GitHub API</code> <code>GitOps</code></p>
+      <h3><a href="https://github.com/faridlamaul/shiptag">shiptag</a></h3>
+      <p>Go CLI and GitHub Action that turns Conventional Commits into semantic versions, release notes, and releases on GitHub, GitLab, and Bitbucket, with a token-free dry run for review.</p>
+      <p><code>Go</code> <code>Release Engineering</code> <code>GitHub Actions</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/faridlamaul/ci-template">ci-template</a></h3>
@@ -63,10 +63,10 @@ I connect infrastructure decisions to measurable outcomes: lower cloud spend, re
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/flow-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/flow-light.svg">
-  <img alt="Release pipeline for faridlamaul.dev, running in production: Commit with Conventional Commits, Verify with type checks, link checks, and a CSP check, Release with a go-gitops SemVer tag, Deploy to Cloudflare Workers, then Probe with hourly SLO checks. A release fails if the post-deploy probe fails." src="./assets/flow-dark.svg" width="100%">
+  <img alt="Release pipeline for faridlamaul.dev, running in production: Commit with Conventional Commits, Verify with type checks, link checks, and a CSP check, Release with a shiptag SemVer tag, Deploy to Cloudflare Workers, then Probe with hourly SLO checks. A release fails if the post-deploy probe fails." src="./assets/flow-dark.svg" width="100%">
 </picture>
 
-My portfolio is operated like a production service, built on [go-gitops](https://github.com/faridlamaul/go-gitops) and [ci-template](https://github.com/faridlamaul/ci-template): every release is verified against production by a synthetic probe, and hourly probes feed the [SLOs and error budget](https://faridlamaul.dev/reliability/) the site publishes about itself.
+My portfolio is operated like a production service and released with [shiptag](https://github.com/faridlamaul/shiptag): every release is verified against production by a synthetic probe, and hourly probes feed the [SLOs and error budget](https://faridlamaul.dev/reliability/) the site publishes about itself.
 
 ## Toolbox
 
