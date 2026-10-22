@@ -39,9 +39,9 @@ I connect infrastructure decisions to measurable outcomes: lower cloud spend, re
       <p><code>Go</code> <code>Release Engineering</code> <code>GitHub Actions</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/faridlamaul/ci-template">ci-template</a></h3>
-      <p>Reusable <code>workflow_call</code> GitHub Actions for semantic releases, Go / Node.js / Python CI, Go release packaging, and multi-platform Docker builds to GHCR.</p>
-      <p><code>GitHub Actions</code> <code>CI/CD</code> <code>DevSecOps</code></p>
+      <h3><a href="https://github.com/faridlamaul/shipguard">shipguard</a></h3>
+      <p>One CI image for GitHub, GitLab, and Bitbucket: secrets, SAST, SCA, and IaC scanning behind a single policy gate, per-language build and test, and releases whose scanned image is the one pushed and signed with cosign.</p>
+      <p><code>Go</code> <code>DevSecOps</code> <code>Supply Chain</code></p>
     </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ I connect infrastructure decisions to measurable outcomes: lower cloud spend, re
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/faridlamaul/omp-cost">omp-cost</a></h3>
-      <p>Terminal FinOps utility for AI token usage, prompt-cache efficiency, cost attribution, and forecasts across Oh My Pi profiles — with TUI, JSON, CSV, and Markdown output.</p>
+      <p>Terminal FinOps utility for AI token usage, prompt-cache savings, cost attribution by repository and agent, and month-end forecasts across Oh My Pi profiles — with TUI, JSON, CSV, and Markdown output.</p>
       <p><code>Go</code> <code>SQLite</code> <code>Cobra</code> <code>Lipgloss</code></p>
     </td>
   </tr>
@@ -63,10 +63,10 @@ I connect infrastructure decisions to measurable outcomes: lower cloud spend, re
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/flow-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/flow-light.svg">
-  <img alt="Release pipeline for faridlamaul.dev, running in production: Commit with Conventional Commits, Verify with type checks, link checks, and a CSP check, Release with a shiptag SemVer tag, Deploy to Cloudflare Workers, then Probe with hourly SLO checks. A release fails if the post-deploy probe fails." src="./assets/flow-dark.svg" width="100%">
+  <img alt="Release pipeline for faridlamaul.dev, running in production: Commit with Conventional Commits, Verify with type checks, link checks, and a CSP check, Release with shipguard (shiptag SemVer tag plus a scanned, signed image), Deploy to Cloudflare Workers, then Probe with hourly SLO checks. A release fails if the post-deploy probe fails." src="./assets/flow-dark.svg" width="100%">
 </picture>
 
-My portfolio is operated like a production service and released with [shiptag](https://github.com/faridlamaul/shiptag): every release is verified against production by a synthetic probe, and hourly probes feed the [SLOs and error budget](https://faridlamaul.dev/reliability/) the site publishes about itself.
+My portfolio is operated like a production service and released with [shipguard](https://github.com/faridlamaul/shipguard), which versions it with [shiptag](https://github.com/faridlamaul/shiptag) and scans and signs the image before anything is pushed. Every release is verified against production by a synthetic probe, and hourly probes feed the [SLOs and error budget](https://faridlamaul.dev/reliability/) the site publishes about itself.
 
 ## Toolbox
 
