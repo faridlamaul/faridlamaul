@@ -48,7 +48,7 @@ const content = {
   ],
   outcomesNote: 'RÉSUMÉ-REPORTED OUTCOMES FROM GENIEBOOK · NOT LIVE TELEMETRY',
   // The release pipeline that ships faridlamaul.dev; the last step is the gate (`gate`).
-  steps: [['Commit', 'Conventional Commits'], ['Verify', 'Check · links · CSP'], ['Release', 'shiptag SemVer tag'], ['Deploy', 'Cloudflare Workers'], ['Probe', 'Hourly SLO checks']],
+  steps: [['Commit', 'Conventional Commits'], ['Verify', 'Check · links · CSP'], ['Release', 'shipguard · signed'], ['Deploy', 'Cloudflare Workers'], ['Probe', 'Hourly SLO checks']],
   gate: 'Probe',
   flowLabel: 'Live',
   flowHeading: 'FARIDLAMAUL.DEV / GITHUB ACTIONS → CLOUDFLARE',
