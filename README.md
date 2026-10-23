@@ -46,7 +46,7 @@ I connect infrastructure decisions to measurable outcomes: lower cloud spend, re
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/faridlamaul/application-chart">application-chart</a></h3>
+      <h3><a href="https://github.com/faridlamaul/shipform">shipform</a></h3>
       <p>Values-driven Helm chart for APIs, workers, StatefulSets, Jobs, and CronJobs — with HPA, PDB, NetworkPolicy, ServiceMonitor, ExternalSecrets, and schema-validated values.</p>
       <p><code>Kubernetes</code> <code>Helm</code> <code>GitOps</code></p>
     </td>
